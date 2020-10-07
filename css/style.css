@@ -1,11 +1,10 @@
-.content-2{
-  background: rgba(240, 99, 184, 0.15);
+body{
+  width: 70%;
 }
-
-.container{
+.header{
   display: flex;
-  justify-content: center;
   justify-content: space-between;
+  flex-direction: row;
  
 }
 
@@ -14,12 +13,21 @@
   list-style: none;
 }
 
-.btn-h{
+.header-btn{
 background: #FFFFFF;
 box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+border-radius: 50px;
 border: none;
+}
 
+.about-security-block{
+background: rgba(240, 99, 184, 0.15);
+border-radius: 50px;
+}
 
+.main{
+  display: flex;
+  justify-content: center;
 }
 
 .li-h{
@@ -31,6 +39,10 @@ color: #4B5D68;
 
 a{
   text-decoration: none;
+}
+
+.container__inner{
+  display: flex;
 }
 
 .content__inner{
