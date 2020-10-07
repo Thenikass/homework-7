@@ -1,5 +1,5 @@
 body{
-  width: 70%;
+
 }
 .header{
   display: flex;
@@ -23,11 +23,25 @@ border: none;
 .about-security-block{
 background: rgba(240, 99, 184, 0.15);
 border-radius: 50px;
+width: 70%;
+margin-left: 15%;
+}
+
+.blocks-1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blocks-2{
+  display: flex;
+  justify-content: space-between;
 }
 
 .main{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+
 }
 
 .li-h{
